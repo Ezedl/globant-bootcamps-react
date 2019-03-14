@@ -17,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
 }
 
 .App-link {
@@ -32,8 +33,12 @@ span:hover {
   color: brown;
 }
 
+p {
+  width: 100%;
+}
+
 button {
-  margin-top: 2%;
+  margin: 2% 1%;
   outline: none;
   border: 0;
   box-sizing: border-box;
