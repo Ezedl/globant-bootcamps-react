@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -22,9 +22,38 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+.root {
+  display: flex;
+  height: -webkit-fill-available;
 }
 
-span {
+.nav {
+  width: 240px;
+  background-color: #282c34;
+}
+
+.nav span {
+  color: white;
+}
+
+.main {
+  width: calc(100% - 240px);
+  padding: 20px 20px;
+}
+
+table {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+table th {
+  background-color: #282c34;
+  color: white !important;
+}
+
+/* span {
   color: #61dafb;
   cursor: default;
 }
@@ -64,7 +93,7 @@ button:active {
 
 button {
   text-transform: uppercase;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
