@@ -1,5 +1,8 @@
 import React from 'react';
 
+import CarActions from './CarActions';
+import CarInfo from './CarInfo';
+
 class Car extends React.Component{
     state = {
         'brand': 'Ford Ka',
@@ -30,27 +33,7 @@ class Car extends React.Component{
             </>
         )
     }
-}
 
-const CarInfo = props => {
-    return (
-        <>
-            <p>I have a <span>{props.brand}</span> model <span>{props.model}</span>.</p>
-            <p>My <span>{props.brand}</span> is color <span>{props.color}</span>.</p>
-        </>
-    )
-}
-
-const CarActions = props => {
-    return (
-        <div style={ {width: '100%'} }>
-            <p>You have { props.cars } cars. </p>
-            <button onClick={ props.buyCarHandler }>Buy a car!</button>
-            { props.cars > 0 &&
-                <button onClick={ props.sellCarHandler }>Sell a car!</button>
-            }
-        </div>
-    )
 }
 
 export default Car;
