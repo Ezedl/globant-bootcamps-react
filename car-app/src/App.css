@@ -53,6 +53,11 @@ table th {
   color: white !important;
 }
 
+.car-form {
+  margin: auto;
+  width: 30%;
+}
+
 /* span {
   color: #61dafb;
   cursor: default;
